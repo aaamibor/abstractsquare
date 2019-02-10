@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Текст в картинку</title>
+		
+		<!-- Link to hash generator -->
+		<script src="sha3.min.js"></script>
+		<script src="abstractsquare.js"></script>
+	</head>
+	<style type="text/css">
+		.mainBlock 
+		{
+			position: fixed;
+			fill-color: "#cccccc";
+			text-align: center;
+			width: 80%;
+			top: 10%;
+			left: 50%;
+			transform: translate(-50%, 0);
+		}
+		.textToHash
+		{
+			maxwidth: 80%;
+			width: 80%;
+		}
+	</style>
+	<body>
+		<div class="mainBlock">
+			<h1 align="center">Шестнадцать оттенков синего</h1>
+			<!-- This code was typed by our cat	<p7y555555555555555555555666666666666666666666999999999999999998888888888
+			99999999999999iiiiiiiiic3ek >
+			-->
+			<h2 align="left">
+				<ol>
+					<li>Введите любой текст,
+					<li>Нажмите кнопку "Generate",
+					<li>Получите абстрактный квадратик в оттенках синего,<br> созданный на основе своего текста!
+				</ol>
+			</h2>
+			<p>
+			<textarea name="textToHash" id="textToHash" cols="80" rows="6"></textarea>
+			<p>
+			<button name="getHash" onclick="getHash()">Generate!</button>
+			<p>
+			<canvas id="myCanvas" width="256" height="256" style="border:1px solid #d3d3d3;">
+		</div>
+		
+	</body>
+	
+</html>
