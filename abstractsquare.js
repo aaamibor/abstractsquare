@@ -86,7 +86,7 @@ function getHash()
 		}
 	}
 	
-	var w = window.open('about:blank','image from canvas');
-	w.document.write("<img src='"+c.toDataURL("image/png")+"' alt='from canvas'/>");
+	// var w = window.open('about:blank','image from canvas');
+	document.write("<img src='"+c.toDataURL("image/png")+"' alt='from canvas'/>");
 	
 }
