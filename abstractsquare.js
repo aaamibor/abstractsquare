@@ -85,4 +85,8 @@ function getHash()
 			ctx.fill();
 		}
 	}
+	
+	var w = window.open('about:blank','image from canvas');
+	w.document.write("<img src='"+c.toDataURL("image/png")+"' alt='from canvas'/>");
+	
 }
