@@ -98,5 +98,4 @@ function getHash()
 	    newImg.src = url;
 	    document.body.appendChild(newImg);
     }
-	
 }
